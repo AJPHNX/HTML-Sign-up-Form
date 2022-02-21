@@ -13,7 +13,7 @@
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
         <form 
-            method="PUT"
+            method="GET"
             action="./results.html"> <!-- TODO: Set Action and Method Properties -->
             <div>
                 <label for="firstname">Your First Name</label>
@@ -49,7 +49,7 @@
                 <option value="GA">Georgia</option>
                 <option value="HI">Hawaii</option>
                 <option value="IA">Iowa</option>
-                <option value="ID">Idaho</option>
+                <option value="ID">Idaho</option>2
                 <option value="IL">Illinois</option>
                 <option value="IN">Indiana</option>
                 <option value="KY">Kentucky</option>
@@ -109,9 +109,9 @@
              </div>
             <!-- TODO: Checkboxes for selecting extra add-ons -->
             <div>
-                <input type="checkbox" name="extras" id="sauna" checked>
+                <input type="checkbox" name="extras" id="sauna" value="Sauna" checked>
                 <lable for="sauna">Sauna</lable>
-                <input type="checkbox" name="extras" id="hotTub">
+                <input type="checkbox" name="extras" id="hotTub" value="Hot Tub">
                 <lable for="hotTub">In-Room Hot Tub</lable>
             </div>
         </fieldset>
